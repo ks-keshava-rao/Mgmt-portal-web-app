@@ -1,0 +1,18 @@
+{
+    "studentName" : "bb",
+    "rollNumber" : "01",
+    "password" : "password",
+    "Useremail" : "bb@gmail.com"
+  }
+{
+    "studentName" : "cc",
+    "rollNumber" : "02",
+    "password" : "password",
+    "Useremail" : "cc@gmail.com"
+  }
+{
+    "studentName" : "dd",
+    "rollNumber" : "04",
+    "password" : "password",
+    "Useremail" : "dd@gmail.com"
+  }
