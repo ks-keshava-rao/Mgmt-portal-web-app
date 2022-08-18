@@ -22,7 +22,7 @@ const Login = () => {
         pageName: "Home", path: '/'
     },
     {
-        pageName: "Marks", path: '/marks'
+        pageName: "Marks", path: '/viewmarksstudent'
     },
     {
         pageName: "Attendance", path: "/attendance"

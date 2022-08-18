@@ -6,7 +6,7 @@ const ProtectedRoutes = () => {
     const currentauth = useContext(Userauth);
     console.log(currentauth.AUTH_STATUS.USER_AUTH)
   return (
-       true ? <Outlet/> : <Navigate to='/login'/>
+    currentauth.AUTH_STATUS.USER_AUTH || currentauth.AUTH_STATUS.ADMIN_AUTH? <Outlet/> : <Navigate to='/login'/>
   )
 }
 

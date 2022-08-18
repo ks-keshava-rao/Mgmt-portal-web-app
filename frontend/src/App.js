@@ -30,6 +30,7 @@ import AdminState from './components/context/AdminState';
 import DisplayNamestate from './components/context/DisplayNamestate';
 import MarksView from './components/Admin/MarksView';
 import MarksEdit from './components/Admin/MarksEdit';
+import StudentViewMarks from './components/common/StudentViewMarks';
 function App() {
   return (
     <>
@@ -55,6 +56,7 @@ function App() {
                       <Route exact path='/viewmarks' element={<MarksView />} />
                       <Route exact path='/viewmarks/:id' element={<MarksEdit />} />
                       <Route exact path='/viewattendance' element={<AttendanceView/>} />
+                      <Route excat path='/viewmarksstudent' element={<StudentViewMarks/>}/>
                     </Route>
                   </Routes>
                 </Router>
