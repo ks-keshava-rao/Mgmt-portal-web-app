@@ -1,7 +1,7 @@
 import React from 'react';
 import FullCalendar from '@fullcalendar/react'
 import dayGridPlugin from '@fullcalendar/daygrid'
-import interactionPlugin,{DateClickArg} from '@fullcalendar/interaction'
+import interactionPlugin from '@fullcalendar/interaction'
 import { useState } from 'react';
 const AttendanceView = () => {
   const [CalEvent , setEvent] = useState([]);
